@@ -1,21 +1,67 @@
-<!doctype html>
-<html lang="ru"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Проект Человек-Паук в Minecraft</title>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Игорь Dragon — официальный сайт</title>
+<meta name="description" content="Официальный сайт Игоря Dragon — Minecraft, GTA 5, The Crew, The Isle, проекты, видео и поддержка автора.">
 <style>
-body{margin:0;background:#10131a;color:#fff;font-family:Arial,sans-serif}
-main{max-width:900px;margin:auto;padding:40px 20px}
-.card{background:#191e29;padding:30px;border-radius:20px}
-h1{font-size:38px} .badge{display:inline-block;padding:8px 12px;border-radius:20px;background:#30394a;margin:4px}
-.btn{display:inline-block;background:#e53935;color:white;padding:15px 22px;border-radius:10px;text-decoration:none;font-weight:bold;margin:18px 0}
-li{margin:8px 0} .muted{color:#aeb7c6}
-</style></head>
-<body><main><div class="card">
-<h1>🕷️ Проект «Человек-Паук» в Minecraft</h1>
-<span class="badge">Minecraft 1.7.10</span>
-<span class="badge">Forge 10.13.4.1614</span>
-<p>Город • Человек-Паук • машины • службы • мебель • оружие</p>
-<a class="btn" href="Project-Spider-Man-1.7.10.zip" download>⬇ Скачать ZIP</a>
-<h2>Полный состав</h2><ol><li><b>The Legends Mod</b> — 8.6.2</li><li><b>DecoCraft</b> — 2.3.2</li><li><b>MrCrayfish's Furniture</b> — 3.4.7</li><li><b>Light Level Overlay Reloaded</b> — 1.0.7</li><li><b>Custom NPCs</b> — 1.7.10</li><li><b>More Player Models</b> — 1.7.10</li><li><b>Dynamic Surroundings</b> — 1.7.10</li><li><b>Sound Filters</b> — 1.7.10</li><li><b>Coco's French Firefighter Pack</b> — 1.7.10</li><li><b>UK Police Uniform</b> — 1.7.10</li><li><b>Night Guard Pack</b> — 1.7.10</li><li><b>MedicineCraft</b> — 4.2</li><li><b>Lots of Food</b> — 1.7.10</li><li><b>Flan's Mod</b> — 4.10.0</li><li><b>Simple Parts Pack</b> — 1.7.10</li><li><b>Spino's Vehicles</b> — v4.2</li><li><b>Taskforce51 Car Pack</b> — 1.7.10</li><li><b>Anthony's Super Car Pack</b> — 1.7.10</li><li><b>VellEagle Super Cars Pack</b> — 1.7.10</li><li><b>Alcara Lamborghini Murciélago Pack</b> — 1.7.10</li><li><b>Techguns</b> — Beta 1.2 FINAL</li><li><b>Thut's Elevators</b> — 2.1</li><li><b>MalisisDoors</b> — 1.13.2</li><li><b>MalisisCore</b> — 0.14.3</li></ol>
-<p class="muted">Чтобы кнопка скачивания работала на твоём сайте, положи этот ZIP рядом с index.html и сохрани имя файла Project-Spider-Man-1.7.10.zip.</p>
-</div></main></body></html>
+:root{--bg:#09070f;--panel:#151020;--panel2:#1d142b;--text:#f7f2ff;--muted:#b9aec8;--accent:#a855f7;--accent2:#f97316;--line:#30243d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at 80% 10%,#3a145c 0,transparent 28%),radial-gradient(circle at 15% 30%,#24103b 0,transparent 25%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(9,7,15,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{height:68px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:1px}.logo span{color:var(--accent2)}.links{display:flex;gap:24px;color:var(--muted);font-size:14px}.links a:hover{color:white}
+.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding-top:80px;position:relative;overflow:hidden}
+.hero:before{content:"🐉";position:absolute;font-size:280px;opacity:.055;right:5%;top:18%;filter:blur(1px)}
+.badge{display:inline-block;border:1px solid #5d3b78;background:#1a1025;color:#d8b4fe;border-radius:999px;padding:7px 14px;font-size:13px}
+h1{font-size:clamp(52px,10vw,110px);line-height:.9;margin:22px 0 18px;letter-spacing:-5px}
+.gradient{background:linear-gradient(90deg,#fff,#d8b4fe,#fb923c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:650px;margin:0 auto 28px;color:var(--muted);font-size:18px}
+.buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn{padding:13px 20px;border-radius:12px;border:1px solid var(--line);background:var(--panel);font-weight:700}.btn.primary{background:linear-gradient(135deg,var(--accent),#7c3aed);border:0}.btn:hover{transform:translateY(-2px)}
+section{padding:88px 0;border-top:1px solid rgba(255,255,255,.04)}.eyebrow{color:#c084fc;text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:700}h2{font-size:42px;margin:8px 0 30px}h3{margin:8px 0}.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,rgba(29,20,43,.95),rgba(15,11,24,.95));border:1px solid var(--line);border-radius:20px;padding:24px;transition:.2s}.card:hover{transform:translateY(-5px);border-color:#66427f}.icon{font-size:34px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.quote{font-size:25px;font-weight:700;border-left:3px solid var(--accent2);padding-left:20px}
+.socials{display:flex;gap:12px;flex-wrap:wrap}.social{padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}.social:hover{border-color:var(--accent)}
+footer{padding:35px 0;color:var(--muted);border-top:1px solid var(--line);text-align:center}
+@media(max-width:760px){.links{display:none}.grid,.about{grid-template-columns:1fr}h1{letter-spacing:-3px}.hero{min-height:82vh}section{padding:65px 0}}
+</style>
+</head>
+<body>
+<nav><div class="container navin"><a class="logo" href="#home">IGOR <span>DRAGON</span> 🐉</a><div class="links"><a href="#about">Обо мне</a><a href="#projects">Проекты</a><a href="#games">Игры</a><a href="#videos">Видео</a><a href="#support">Поддержка</a><a href="#contacts">Контакты</a></div></div></nav>
+
+<header class="hero" id="home"><div class="container">
+<div class="badge">ОФИЦИАЛЬНЫЙ САЙТ • IGOR DRAGON</div>
+<h1><span class="gradient">ИГОРЬ DRAGON</span></h1>
+<p>Создаю. Играю. Придумываю. Здесь собраны мои игровые проекты, Minecraft-сериалы, идеи и видео.</p>
+<div class="buttons"><a class="btn primary" href="#projects">🔥 Мои проекты</a><a class="btn" href="https://youtube.com/@igoridragon_yt" target="_blank" rel="noopener">▶️ YouTube</a></div>
+</div></header>
+
+<section id="about"><div class="container about"><div><div class="eyebrow">Кто я</div><h2>Обо мне</h2><p class="muted">Я — Игорь Dragon. Мне нравится создавать собственные истории и игровые проекты, экспериментировать с Minecraft, гонками, мотоциклами, драконами и динозаврами.</p><p class="muted">Этот сайт — моя личная площадка, где со временем будут появляться новые проекты, видео и новости.</p></div><div class="quote">«Мой мир — это место, где игры превращаются в истории.»</div></div></section>
+
+<section id="projects"><div class="container"><div class="eyebrow">Творчество</div><h2>Мои проекты</h2><div class="grid">
+<div class="card"><div class="icon">🐉</div><h3>Жизнь Дракона</h3><p class="muted">Большая история о драконах, приключениях и фантастическом мире.</p></div>
+<div class="card"><div class="icon">🐺</div><h3>Перерождение в зоопарке: Человек-Волк</h3><p class="muted">Фантастический проект о необычном перерождении и новой жизни.</p></div>
+<div class="card"><div class="icon">🌑</div><h3>Город Теней</h3><p class="muted">Тёмная история с тайнами, опасностями и пробуждением Дракона.</p></div>
+<div class="card"><div class="icon">🕷️</div><h3>Оборотень Паук</h3><p class="muted">Оригинальная идея, объединяющая супергеройскую тематику и оборотня.</p></div>
+<div class="card"><div class="icon">🏎️</div><h3>Школа гонок и дрифта</h3><p class="muted">Гонки, дрифт, автомобили, мотоциклы и соревнования.</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>Новые проекты</h3><p class="muted">Здесь будут появляться новые идеи, моды и игровые истории.</p></div>
+</div></div></section>
+
+<section id="games"><div class="container"><div class="eyebrow">Мой игровой мир</div><h2>Игры</h2><div class="grid">
+<div class="card"><h3>⛏️ Minecraft</h3><p class="muted">Сериалы, моды, сборки и собственные игровые миры.</p></div>
+<div class="card"><h3>🚗 GTA 5</h3><p class="muted">Игровые приключения, RP и интересные истории.</p></div>
+<div class="card"><h3>🏁 The Crew</h3><p class="muted">Гонки, автомобили, мотоциклы и открытый мир.</p></div>
+<div class="card"><h3>🦖 The Isle</h3><p class="muted">Динозавры и выживание в опасном мире.</p></div>
+<div class="card"><h3>🦕 Jurassic World</h3><p class="muted">Динозавры, приключения и фантастические миры.</p></div>
+<div class="card"><h3>🏍️ Мотоциклы</h3><p class="muted">Скорость, гонки и любимые байки.</p></div>
+</div></div></section>
+
+<section id="videos"><div class="container"><div class="eyebrow">Смотри меня</div><h2>Мои видео</h2><div class="card"><h3>▶️ YouTube — Igor Dragon</h3><p class="muted">Все новые видео и будущие проекты будут появляться на моём YouTube-канале.</p><a class="btn primary" href="https://youtube.com/@igoridragon_yt" target="_blank" rel="noopener">Открыть YouTube</a></div></div></section>
+
+<section id="support"><div class="container"><div class="eyebrow">Поддержка автора</div><h2>Поддержать Igor Dragon</h2><div class="grid"><div class="card"><div class="icon">💳</div><h3>Онлайн-поддержка</h3><p class="muted">Здесь можно разместить кнопку реальной оплаты. Для подключения платежей добавьте ссылку или платёжную форму выбранного платёжного провайдера.</p><a class="btn primary" href="#" onclick="alert('Платёжная система ещё не подключена. Добавьте сюда ссылку на вашу платёжную страницу.');return false;">💳 Поддержать</a></div><div class="card"><div class="icon">🛡️</div><h3>Безопасная оплата</h3><p class="muted">Для реальных платежей используйте защищённую страницу платёжного провайдера. Данные банковских карт не должны храниться на этом сайте.</p></div><div class="card"><div class="icon">🐉</div><h3>Спасибо за поддержку!</h3><p class="muted">Ваша поддержка помогает развивать новые Minecraft-сериалы, игровые проекты, моды и видео.</p></div></div></div></section>
+<section id="contacts"><div class="container"><div class="eyebrow">Будь на связи</div><h2>Социальные сети</h2><div class="socials"><a class="social" href="https://youtube.com/@igoridragon_yt" target="_blank" rel="noopener">▶️ YouTube</a><span class="social">🎵 TikTok — скоро</span><span class="social">💬 Discord — скоро</span><span class="social">📸 Instagram — скоро</span></div></div></section>
+
+<footer><div class="container">© <span id="year">2026</span> Igor Dragon. Сделано с 🔥 и 🐉</div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
